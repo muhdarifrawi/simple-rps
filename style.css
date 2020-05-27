@@ -1,0 +1,41 @@
+.center { 
+  margin-left:auto;
+  margin-right:auto;
+  width:350px;
+}
+
+.box{
+  height:100px;
+  width:100px;
+  text-align: center;
+}
+
+.box:hover{
+  cursor: pointer; 
+}
+
+.rock{
+  border: 5px solid #2ecc71;
+  /* #2ecc71 */
+}
+
+.paper{
+  border: 5px solid #3498DB;
+  margin: 0px 10px 0px 10px;
+  /* #3498DB */
+}
+
+.scissors{
+  border: 5px solid #E74C3C;
+  /* #E74C3C */
+}
+
+.inline{
+  display:flex;
+  /* justify-content: space-around; */
+}
+
+#output{
+  margin-top: 20px;
+  font-size: 14pt;
+}
